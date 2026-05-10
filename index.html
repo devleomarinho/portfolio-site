@@ -328,14 +328,14 @@
           <div class="project-stack"><span class="stack-tag primary">dbt Cloud</span><span class="stack-tag primary">BigQuery</span><span class="stack-tag">GCP</span><span class="stack-tag">Python</span><span class="stack-tag">Artifact Registry</span><span class="stack-tag">Cloud Run</span></div>
         </a>
 
-        <a href="https://github.com/devleomarinho/pipeline_databricks" target="_blank" rel="noopener" class="project-card color-orange fade-in fade-in-delay-1">
+        <a href="https://github.com/devleomarinho/event-driven-ecommerce-analytics" target="_blank" rel="noopener" class="project-card color-orange fade-in fade-in-delay-1">
           <div class="project-top">
             <div class="project-icon orange"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff9428" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
             <svg class="project-link-icon icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17L17 7"/></svg>
           </div>
-          <h3 class="project-name">Pipeline Databricks + Airflow + Slack</h3>
+          <h3 class="project-name">Pipeline Event-driven com GCP + Snowflake + dbt + Github Actions</h3>
           <p class="project-desc" data-i18n="proj3.desc"></p>
-          <div class="project-stack"><span class="stack-tag primary">Azure Databricks</span><span class="stack-tag primary">Apache Airflow</span><span class="stack-tag">Python</span><span class="stack-tag">Slack API</span><span class="stack-tag">Parquet</span></div>
+          <div class="project-stack"><span class="stack-tag primary">Snowflake</span><span class="stack-tag primary">GCP</span><span class="stack-tag">Python</span><span class="stack-tag">dbt</span><span class="stack-tag">Github Actions</span></div>
         </a>
 
         <a href="https://github.com/devleomarinho/pipeline_databricks_azure" target="_blank" rel="noopener" class="project-card color-purple fade-in fade-in-delay-2">
@@ -466,7 +466,7 @@
         'projects.title':'Projetos','projects.title.dim':'selecionados',
         'proj1.desc':'Pipeline end-to-end de inteligência comercial B2B com dados de ERP (CSV) e CRM (JSON), integrando serviços da GCP com Snowflake como DataLake. Carga incremental via Hash Diff (MD5 + MERGE), flatten de JSONs semi-estruturados com <code>LATERAL FLATTEN</code> e transformações dos dados via SQL. Arquitetura Medalhão com camadas Bronze → Silver → Gold.',
         'proj2.desc':'Data Stack moderno serverless de baixo custo operacional, utilizando serviços da GCP com dbt Cloud para inteligência comercial B2B. Ingesta CRM e planilhas via Cloud Run + Artifact Registry, transforma os dados com dbt (Bronze→Gold), rastreia histórico com SCD Type 2 e entrega camada analítica confiável para tomadas de decisões de negócio assertivas automaticamente.',
-        'proj3.desc':'Pipeline automatizado de cotações de moedas estrangeiras via Exchange Rates API. Orquestrado pelo Apache Airflow com execução em Azure Databricks — notebooks de extração, transformação e visualização em arquitetura Medallion. Relatórios enviados automaticamente via bot no Slack.',
+        'proj3.desc':'Pipeline analítica completa, orientada a eventos, integrando Google Cloud Platform e Snowflake, com o dbt Project on Snowflake na camada analítica.O projeto demonstra ingestão em near-real-time, modelagem dimensional sobre arquitetura medalhão (Bronze/Silver/Gold) e deploy versionado de IaC (infraestrutura como código).',
         'proj4.desc':'Solução ETL completa com Azure Databricks (PySpark) para dados imobiliários, Azure Data Factory para orquestração e Azure Data Lake Storage Gen2 em arquitetura Medallion (Landing → Bronze → Silver). Integração contínua via GitHub com gatilhos por evento e agendados.',
         'exp.title':'Experiência','exp.title.dim':'profissional','exp.present':'Presente',
         'exp1.role':'Engenheiro de Dados','exp1.period':'Agosto 2025 — Presente · Remoto',
@@ -496,7 +496,7 @@
         'projects.title':'Selected','projects.title.dim':'projects',
         'proj1.desc':'End-to-end B2B commercial intelligence pipeline integrating ERP (CSV) and CRM (JSON) with Snowflake as the central DataLake. Incremental ingestion via Hash Diff (MD5 + MERGE), semi-structured JSON flattening with <code>LATERAL FLATTEN</code>, and native deduplication. Star Schema with Bronze → Silver → Gold layers.',
         'proj2.desc':'Serverless Modern Data Stack on GCP Free Tier for B2B commercial intelligence. Ingests CRM, goals and marketing via Cloud Run + Docker, transforms with dbt (Bronze→Gold), tracks history with SCD Type 2, and automatically delivers ROI, CAC and funnel performance KPIs.',
-        'proj3.desc':'Automated pipeline for foreign currency exchange rates via the Exchange Rates API. Orchestrated by Apache Airflow on Azure Databricks — extraction, transformation and visualization notebooks in Medallion architecture. Reports automatically dispatched via a Slack bot.',
+        'proj3.desc':'A complete, event-driven analytical pipeline integrating Google Cloud Platform and Snowflake, with the dbt Project on Snowflake in the analytical layer. The project demonstrates near-real-time ingestion, dimensional modeling on a medallion architecture (Bronze/Silver/Gold), and versioned deployment of IaC (infrastructure as code).',
         'proj4.desc':'Complete ETL solution with Azure Databricks (PySpark) for real estate data, Azure Data Factory for orchestration and Azure Data Lake Storage Gen2 in Medallion architecture (Landing → Bronze → Silver). Continuous integration via GitHub with event-driven and scheduled triggers.',
         'exp.title':'Professional','exp.title.dim':'experience','exp.present':'Present',
         'exp1.role':'Data Engineer','exp1.period':'August 2025 — Present · Remote',
